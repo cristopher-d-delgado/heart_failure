@@ -104,4 +104,5 @@ Lastly, the optimized models were trained to obtain the best recall score becaus
 | ├── models/          | saved base and optimized models                   |
 | ├── .gitignore       | files to ignore                                   |
 | ├── notebook.ipynb   | notebook of analysis                              |
+| ├── presentation.pdf | pdf version of presentation                       |
 | ├── README.md        | Project documentation                             |
