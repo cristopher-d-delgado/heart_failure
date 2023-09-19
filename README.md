@@ -19,11 +19,16 @@ The stakeholder wants to determine what related features to CVDs are the most im
 
 This project utilizes a dataset from Kaggle titled [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). This dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features. Every dataset used can be found under the Index of heart disease datasets from UCI Machine Learning Repository
 
-* [Cleveland](https://archive.ics.uci.edu/dataset/45/heart+disease): 303 observations
-* [Hungarian](https://archive.ics.uci.edu/dataset/45/heart+disease): 294 observations
-* [Switzerland](https://archive.ics.uci.edu/dataset/45/heart+disease): 123 observations
-* [Long Beach VA](https://archive.ics.uci.edu/dataset/45/heart+disease): 200 observations
-* [Stalog (Heart) Data Set](https://archive.ics.uci.edu/dataset/145/statlog+heart): 270 observations
+|Source                                                                            |Number of Observations|
+|----------------------------------------------------------------------------------|----------------------|
+| [Cleveland](https://archive.ics.uci.edu/dataset/45/heart+disease)                | 303 observations     |
+| [Hungarian](https://archive.ics.uci.edu/dataset/45/heart+disease)                | 294 observations     |
+| [Switzerland](https://archive.ics.uci.edu/dataset/45/heart+disease)              | 123 observations     |
+| [Long Beach VA](https://archive.ics.uci.edu/dataset/45/heart+disease)            | 200 observations     |
+| [Stalog (Heart) Data Set](https://archive.ics.uci.edu/dataset/145/statlog+heart) | 270 observations     |
+| Duplicated                                                                       | 272 observations     |
+| Total                                                                            | 1190 observations    |
+| Final Dataset                                                                    | 918 observations     |
 
 The features in this dataset are the following:
 
