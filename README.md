@@ -89,3 +89,15 @@ Lastly, the optimized models were trained to obtain the best recall score becaus
 
 1. I recommend to incorporate the Random Forest model into diagnostic medical device software for the purposes of monitoring Cardio vascular realetd symptoms for Cardio Vascular Diseases.
 2. I recommend to develop medical devices geared towards monitoring the slope of the S-T segment of the Electrocardiogram, Excercise-induced angina, and measuring the S-T segment depression.
+
+**Repository Structure:**
+
+| Folder/File          | Description                                       |
+|----------------------|---------------------------------------------------|
+| heart_failure/       | Main project directory                            |
+| ├── data/            | Data file                                         |
+| ├── images/          | images from analysis                              |
+| ├── models/          | saved base and optimized models                   |
+| ├── .gitignore       | files to ignore                                   |
+| ├── notebook.ipynb   | notebook of analysis                              |
+| ├── README.md        | Project documentation                             |
