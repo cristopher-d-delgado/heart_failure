@@ -1,6 +1,9 @@
 # Heart Disease Prediction
-**Author:** Cristopher Delgado 
+**Author:** Cristopher Delgado
+
 **Date:** September 2023
+
+**Blog:** [DEV](TBD)
 
 ## Overview
 This project was completed as part of the Flatiron School Curriculum for Data Science Phase 3 Machine Learning Fundamentals.
