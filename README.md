@@ -49,7 +49,7 @@ The features in this dataset are the following:
 4. Create Testing and Training sets to train classification models and validate there performances.
 5. Observe important features from top performing model.
 
-### Basline vs Optimized Model
+### Baseline vs Optimized Model
 To view all the models from baseline and their optimized version please view the notebook. The best performing model was the Random Forest model. This model has a strong discrimation as its Area Under the Receiver Operating Characteristic curve was the highest and showed no overfit. The optmized model slightly increased the Area under the Receiver Operating Characteristic curve but it was not by much. The main differences we can see is how the model has more discrimination ability compared to is baseline version as we can see from the Receiver Operating Characteristic curve.
 
 ![ROC_curve](images/roc_curve_base_and_op.png)
