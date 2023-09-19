@@ -50,6 +50,10 @@ The features in this dataset are the following:
 | ST_Slope       | the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]                                                                                                                                                   |
 | HeartDisease   | [1: heart disease, 0: Normal]                                                                                                                                                                                                              |
 
+The target is HeartDisease. The target has a the following distribution with 410 instances of absent heart disease cases and 508 instances of positive heart disease cases.
+
+![heart_dist](images/heart_disease_dist.png)
+
 ## Data Exploration
 ### Methodology
 
