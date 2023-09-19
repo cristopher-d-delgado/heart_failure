@@ -50,11 +50,14 @@ The features in this dataset are the following:
 5. Observe important features from top performing model.
 
 ### Baseline vs Optimized Model
-To view all the models from baseline and their optimized version please view the notebook. The best performing model was the Random Forest model. This model has a strong discrimation as its Area Under the Receiver Operating Characteristic curve was the highest and showed no overfit. The optmized model slightly increased the Area under the Receiver Operating Characteristic curve but it was not by much. The main differences we can see is how the model has more discrimination ability compared to is baseline version as we can see from the Receiver Operating Characteristic curve.
+The best performing model was the Random Forest model. This model has a strong discrimation as its Area Under the Receiver Operating Characteristic curve was the highest and showed no overfit. The optmized model slightly increased the Area under the Receiver Operating Characteristic curve but it was not by much. The main differences we can see is how the model has more discrimination ability compared to is baseline version as we can see from the Receiver Operating Characteristic curve. The other models also performed better compared to there baseline versions however Random Forests performs the best.
 
-![ROC_curve](images/roc_curve_base_and_op.png)
+|Baseline                                     |Optimized                                            |
+|---------------------------------------------|-----------------------------------------------------|
+|![ROC_curve_base](images/base_roc_curves.png)|![ROC_curve_op](images/op_roc_curves.png)            |  
 
-The model determined that the top 3 important features in its deciding algorithim were:
+
+The Random Forest model determined that the top 3 important features in its deciding algorithim were:
 
 1. ST_Slope: the slope of the peak exercise ST segment
 2. Excercise Angina: exercise-induced angina
@@ -62,10 +65,13 @@ The model determined that the top 3 important features in its deciding algorithi
 
 ![Feature_importance](images/rf_op_feature_importance.png)
 
-Lastly, the optimized model was trained to obtain the best recall score because I wanted the model's ability to correctly identify positive instances and minimize false negatives. The reasoning for that was again the worst case scenario for this model. It would be worse to miss someone with heart disease when in reality they did have heart disease. In summary, I wanted the model to capture all positive cases and minimize false negatives. We see that that is the case. The baseline model has less positive instances (TP=79 and FP=13) in comparison to the our optimized model which has more positive instances (TP=72 and FP=20). The baseline FN = 12 while the optmized model FN = 6. That being said the model optimized in the way I intended it to.
+Lastly, the optimized models were trained to obtain the best recall score because I wanted the model's ability to correctly identify positive instances and minimize false negatives. The reasoning for that was again the worst case scenario for this model. It would be worse to miss someone with heart disease when in reality they did have heart disease. In summary, I wanted the model to capture all positive cases and minimize false negatives. We see that that is the case. The baseline model has less positive instances (TP=79 and FP=13) in comparison to the our optimized model which has more positive instances (TP=72 and FP=20). The baseline FN = 12 while the optmized model FN = 6. That being said the model optimized in the way I intended it to.
 
-![Confusion_matrix](images/cm_base_and_op.png)
+|Random Forest Confusion Matrix                |
+|----------------------------------------------|
+|![Confusion_matrix](images/cm_base_and_op.png)|
 
 ## Evaluation:
 
-I recommend to incorporate the Random Forest model into diagnostic medical device software for the purposes of monitoring Cardio vascular realetd symptoms for Cardio Vascular Diseases. 
+1. I recommend to incorporate the Random Forest model into diagnostic medical device software for the purposes of monitoring Cardio vascular realetd symptoms for Cardio Vascular Diseases.
+2. I recommend to develop medical devices geared towards monitoring the slope of the S-T segment of the Electrocardiogram, Excercise-induced angina, and measuring the S-T segment depression.
