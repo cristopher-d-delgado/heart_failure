@@ -5,6 +5,10 @@
 
 **Blog:** [DEV](TBD)
 
+**Contact Information:**
+[Github](github.com/cristopher-d-delgado),
+[LinkedIn](https://www.linkedin.com/in/cristopher-d-delgado/)
+
 ## Overview
 This project was completed as part of the Flatiron School Curriculum for Data Science Phase 3 Machine Learning Fundamentals.
 
