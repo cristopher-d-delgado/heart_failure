@@ -3,7 +3,7 @@
 
 **Date:** September 2023
 
-**Blog:** [DEV](TBD)
+**Blog:** [DEV](https://dev.to/cristopherddelgado/heart-disease-prediction-hgg)
 
 **Contact Information:**
 [Github](github.com/cristopher-d-delgado),
